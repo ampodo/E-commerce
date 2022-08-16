@@ -1,0 +1,55 @@
+
+
+
+/* responsive catalog */
+
+
+
+@media only screen and (max-width: 899px)  {
+
+   
+  
+    .MuiFormGroup-root.css-dmmspl-MuiFormGroup-root {
+         
+        flex-direction: row;
+        
+    }  
+
+  }
+
+
+
+
+@media only screen and (max-width: 428px)  {
+
+   
+    .MuiTypography-root.MuiTypography-body1.css-efduxu-MuiTypography-root {
+
+           margin-left:20px;
+
+    }
+   
+
+  }
+
+ 
+  @media only screen and (max-width: 430px)  {
+
+   
+    .MuiFormGroup-root.css-dmmspl-MuiFormGroup-root {
+      flex-direction: column;
+  
+    }
+
+    .MuiGrid-root.css-1lfkq5n-MuiGrid-root>.MuiGrid-item {
+      padding-left: 42px;
+      padding-right: 10px;
+     }
+  
+  .MuiTypography-root.MuiTypography-body1.css-efduxu-MuiTypography-root {
+    margin-left: 0px;
+     
+    }
+
+  }
+

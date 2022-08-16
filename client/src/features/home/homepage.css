@@ -1,0 +1,151 @@
+
+      
+     .slick-dots li.slick-active button:before {
+      color:White !important;
+
+     }
+
+
+
+
+     .underlined {
+
+         color: #90caf9;
+
+     }
+
+
+
+    /* Carousel adjustments */
+
+
+     .slick-track,
+     .slick-list {
+     -webkit-perspective: 2000;
+     -webkit-backface-visibility: hidden;
+     }
+
+
+
+     .avatar {
+
+         width:100%;
+     }
+
+     
+
+
+
+     .bg-1 {
+        object-fit:cover;
+        object-position:50% 50%;
+        vertical-align: middle;
+        max-width:100%;
+       
+       
+     }
+    
+     .bg-2 {
+        object-fit:cover; 
+        object-position:50% 50%; 
+        vertical-align: middle;
+        max-width:100%;
+        
+       
+    }
+
+    .bg-3 {
+        object-fit:cover;
+        object-position:50% 50%;
+        vertical-align: middle;
+        max-width:100%;
+        
+    }
+
+
+  
+    /* Large screen scaling */
+
+
+    
+    @media only screen and (min-width: 1300px)  {
+
+   
+
+        .slick-slide img {
+         display: block;
+         min-height: 47rem; 
+         
+     
+                  }
+             
+             }
+
+
+    @media only screen and (min-width: 1430px)  {
+
+   
+
+        .slick-slide img {
+         display: block;
+         min-height: 50rem; 
+         
+     
+                  }
+             
+             }
+
+
+  
+    @media only screen and (min-width: 1530px)  {
+
+   
+
+                .slick-slide img {
+                 display: block;
+                 min-height: 64rem; 
+                 
+             
+                          }
+                     
+                     }
+
+
+    @media only screen and (min-width: 1930px)  {
+
+   
+
+                        .slick-slide img {
+                         display: block;
+                         min-height: 74rem; 
+                         
+                     
+                                  }
+                             
+                             }
+
+        
+
+
+ 
+
+     
+    
+    
+
+ 
+
+
+
+
+     
+
+        
+       
+
+         
+       
+           
+  
+
+

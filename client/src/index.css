@@ -1,0 +1,46 @@
+
+ 
+
+ * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+    } 
+
+
+   
+    .content {
+             
+      min-height: calc(100vh - 88px - 64px); 
+          
+      }
+
+
+   
+    .footer {
+     flex-shrink: 0;
+     padding: 2em;
+     text-align: center;
+     background-color: white;
+     color: black;
+     width: 100%;
+     
+   }
+
+
+    .copyright {
+        
+     font-weight: bold;
+     font-size:13px;
+     
+    }
+  
+
+  .viber_logo {
+     margin-left: 4px;
+  }
+
+  .face_logo {
+    margin-left: 4px;
+ }
+
