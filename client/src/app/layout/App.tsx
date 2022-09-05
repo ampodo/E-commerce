@@ -5,7 +5,6 @@ import { Route, Switch } from "react-router-dom";
 import  AboutPage from "../../features/about/AboutPage";
 import Catalog from "../../features/catalog/Catalog";
 import ProductDetails from "../../features/catalog/ProductDetails";
-import HomePage from "../../features/home/Homepage";
 import Header from "./Header";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
@@ -22,6 +21,8 @@ import { fetchCurrentUser } from "../../features/account/accountSlice";
 import PrivateRoute from "./PrivateRoute";
 import Orders from "../../features/orders/Orders";
 import Footer from "./Footer";
+import HomePage from "../../features/home/Homepage";
+
 
 
 function App() {
@@ -74,7 +75,7 @@ return (
    <CssBaseline />
     <Header />
     <main className="container content">
-    <Route exact path='/' component={HomePage} />
+   <Route exact path='/' component={HomePage} />
    <Route path={'/(.+)'} render={() => (
      <Container  sx={{ mt: 4 }}>
        <Switch>

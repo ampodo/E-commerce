@@ -1,151 +1,53 @@
 
-      
-     .slick-dots li.slick-active button:before {
-      color:White !important;
-
-     }
-
-
-
-
-     .underlined {
-
-         color: #90caf9;
-
-     }
-
-
-
-    /* Carousel adjustments */
-
-
-     .slick-track,
-     .slick-list {
-     -webkit-perspective: 2000;
-     -webkit-backface-visibility: hidden;
-     }
-
-
-
-     .avatar {
-
-         width:100%;
-     }
-
-     
-
-
-
-     .bg-1 {
-        object-fit:cover;
-        object-position:50% 50%;
-        vertical-align: middle;
-        max-width:100%;
-       
-       
-     }
-    
-     .bg-2 {
-        object-fit:cover; 
-        object-position:50% 50%; 
-        vertical-align: middle;
-        max-width:100%;
-        
-       
-    }
-
-    .bg-3 {
-        object-fit:cover;
-        object-position:50% 50%;
-        vertical-align: middle;
-        max-width:100%;
-        
-    }
-
-
-  
-    /* Large screen scaling */
-
-
-    
-    @media only screen and (min-width: 1300px)  {
+.hero {
 
    
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
 
-        .slick-slide img {
-         display: block;
-         min-height: 47rem; 
-         
-     
-                  }
-             
-             }
+}
 
 
-    @media only screen and (min-width: 1430px)  {
+.hero:before {
 
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/hero-one.png') no-repeat center center/cover;
+    z-index: -1;
+
+}
+
+
+
+.hero .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    max-width: 1400px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
    
 
-        .slick-slide img {
-         display: block;
-         min-height: 50rem; 
-         
-     
-                  }
-             
-             }
+}
 
 
-  
-    @media only screen and (min-width: 1530px)  {
+.hero .button {
 
-   
-
-                .slick-slide img {
-                 display: block;
-                 min-height: 64rem; 
-                 
-             
-                          }
-                     
-                     }
-
-
-    @media only screen and (min-width: 1930px)  {
-
-   
-
-                        .slick-slide img {
-                         display: block;
-                         min-height: 74rem; 
-                         
-                     
-                                  }
-                             
-                             }
-
-        
-
-
- 
-
-     
-    
+    width: 170px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 400px;
+    margin-left: 20px;
     
 
- 
-
-
-
-
-     
-
-        
-       
-
-         
-       
-           
-  
-
+}
 
