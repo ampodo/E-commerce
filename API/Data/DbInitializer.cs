@@ -205,8 +205,23 @@ namespace API.Data
                     Type = "Nourishing",
                     QuantityInStock = "Limited"
                 },
+
+
+                new Product
+                {
+                    Name = "Cream",
+                    Description = "This cream smoothes wrinkles, restores facial volume, and eliminates pigmentation. Also capable of protecting the epidermis from external daily aggression such as blue light, UV, and pollution.",
+                    Price = 93,
+                    PictureUrl = "/images/products/anti.png",
+                    Brand = "DERM ACTE",
+                    Type = "Anti-Age",
+                    QuantityInStock = "Limited"
+                },
                     
             };
+
+                            
+                    
            
             foreach (var product in products)
             {
