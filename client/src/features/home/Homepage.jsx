@@ -4,6 +4,9 @@ import "./Homepage.css";
 import { Link } from 'react-router-dom';
 
 
+
+
+
 const HomePage = () => {
 
   return (
@@ -20,13 +23,13 @@ const HomePage = () => {
                    Shop online
                 </Button>  
            </div>
-            
 
-
-    </div>
-
+           
       
-  
+        </div>
+
+          
+
 
   )
 }
