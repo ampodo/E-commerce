@@ -18,8 +18,7 @@ const HomePage = () => {
                              >
                    Shop online
                 </Button>  
-               
-            </div>
+           </div>
     </div>
   )
 }
