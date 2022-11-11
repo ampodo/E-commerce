@@ -22,7 +22,7 @@ import PrivateRoute from "./PrivateRoute";
 import Orders from "../../features/orders/Orders";
 import Footer from "./Footer";
 import HomePage from "../../features/home/Homepage";
-import Cards from "../../features/cards/Cards";
+
 
 
 
@@ -77,7 +77,7 @@ return (
     <Header />
     <main className="container content">
    <Route exact path='/' component={HomePage} />
-   <Cards/>
+   
    <Route path={'/(.+)'} render={() => (
      <Container  sx={{ mt: 4 }}>
        <Switch>
