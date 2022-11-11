@@ -7,4 +7,4 @@ Applied Material UI library for the decent design.
 Project published and deployed on Heroku.
 Fully responsive layout.
 
-Follow the link below to see deployed version of this app: https://e-commerce-academie.herokuapp.com/
+Check the published version: https://e-store-lab.herokuapp.com/
