@@ -20,7 +20,7 @@ const Cards = () => {
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
           <Card
             sx={{ maxWidth: 345, borderRadius: "16px" }}
-            style={{ backgroundColor: "#e3e3e3" }}
+            style={{ backgroundColor: "#90caf9" }}
           >
             <CardMedia
               component="img"
@@ -35,7 +35,7 @@ const Cards = () => {
             >
               <Typography
                 gutterBottom
-                variant="h7"
+                variant="h6"
                 component="div"
                 sx={{ color: "#585858", fontWeight: "bold", mt: 2 }}
                 align="center"
@@ -44,11 +44,11 @@ const Cards = () => {
               </Typography>
               <Typography
                 variant="subtitle2"
-                sx={{ color: "#072227", mt: 2 }}
+                sx={{ color: "#585858",  fontWeight: "bold", mt: 2 }}
                 align="center"
               >
                 My service includes the injection of amino acids, minerals,
-                enzymes and vitamins into the middle layer of the skin.
+                enzymes and vitamins into the middle layer of the&nbsp;skin.
               </Typography>
             </CardContent>
             <CardActions></CardActions>
@@ -58,7 +58,7 @@ const Cards = () => {
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
           <Card
             sx={{ maxWidth: 345, borderRadius: "16px" }}
-            style={{ backgroundColor: "#e3e3e3" }}
+            style={{ backgroundColor: "#90caf9" }}
           >
             <CardMedia
               component="img"
@@ -73,7 +73,7 @@ const Cards = () => {
             >
               <Typography
                 gutterBottom
-                variant="h7"
+                variant="h6"
                 component="div"
                 sx={{ color: "#585858", fontWeight: "bold", mt: 2 }}
                 align="center"
@@ -82,11 +82,11 @@ const Cards = () => {
               </Typography>
               <Typography
                 variant="subtitle2"
-                sx={{ color: "#072227", mt: 2 }}
+                sx={{ color: "#585858",  fontWeight: "bold", mt: 2 }}
                 align="center"
               >
                 I provide different skincare procedures. From peeling to
-                mechanical cleaning. Fervently, waiting you in my cabinet.
+                mechanical cleaning. Fervently, waiting you in my&nbsp;cabinet.
               </Typography>
             </CardContent>
             <CardActions></CardActions>
@@ -96,7 +96,7 @@ const Cards = () => {
         <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
           <Card
             sx={{ maxWidth: 345, borderRadius: "16px" }}
-            style={{ backgroundColor: "#e3e3e3" }}
+            style={{ backgroundColor: "#90caf9" }}
           >
             <CardMedia
               component="img"
@@ -111,7 +111,7 @@ const Cards = () => {
             >
               <Typography
                 gutterBottom
-                variant="h7"
+                variant="h6"
                 component="div"
                 sx={{ color: "#585858", fontWeight: "bold", mt: 2 }}
                 align="center"
@@ -120,11 +120,11 @@ const Cards = () => {
               </Typography>
               <Typography
                 variant="subtitle2"
-                sx={{ color: "#072227", mt: 2 }}
+                sx={{ color: "#585858",  fontWeight: "bold", mt: 2 }}
                 align="center"
               >
                 Choose from variety of skincare products. From serums to
-                exfoliating creams. For sure, French quality is guaranteed.
+                exfoliating creams. For sure, French quality is&nbsp;guaranteed.
               </Typography>
             </CardContent>
             <CardActions></CardActions>
