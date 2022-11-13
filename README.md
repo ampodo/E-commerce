@@ -16,4 +16,4 @@ Project published and deployed on Heroku.
 
 Fully responsive layout.
 
-Check the published version: https://e-store-lab.herokuapp.com/
+Check the published version:
