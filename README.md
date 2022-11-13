@@ -16,4 +16,3 @@ Redux state management tool used for this project.
 
 Fully responsive layout.
 
-Check the published version:
