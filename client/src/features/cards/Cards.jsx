@@ -35,7 +35,7 @@ const Cards = () => {
             >
               <Typography
                 gutterBottom
-                variant="h6"
+                variant="h7"
                 component="div"
                 sx={{ color: "#585858", fontWeight: "bold", mt: 2 }}
                 align="center"
@@ -43,12 +43,12 @@ const Cards = () => {
                 Mesotherapy
               </Typography>
               <Typography
-                variant="subtitle2"
-                sx={{ color: "#585858",  fontWeight: "bold", mt: 2 }}
+                variant="body2"
+                sx={{ color: "#585858", fontWeight: "bold",  mt: 2 }}
                 align="center"
               >
                 My service includes the injection of amino acids, minerals,
-                enzymes and vitamins into the middle layer of the&nbsp;skin.
+                enzymes, and vitamins into the middle layer of the&nbsp;skin.
               </Typography>
             </CardContent>
             <CardActions></CardActions>
@@ -73,7 +73,7 @@ const Cards = () => {
             >
               <Typography
                 gutterBottom
-                variant="h6"
+                variant="h7"
                 component="div"
                 sx={{ color: "#585858", fontWeight: "bold", mt: 2 }}
                 align="center"
@@ -81,12 +81,12 @@ const Cards = () => {
                 Skincare procedures
               </Typography>
               <Typography
-                variant="subtitle2"
-                sx={{ color: "#585858",  fontWeight: "bold", mt: 2 }}
+                variant="body2"
+                sx={{ color: "#585858", fontWeight: "bold",   mt: 2 }}
                 align="center"
               >
                 I provide different skincare procedures. From peeling to
-                mechanical cleaning. Fervently, waiting you in my&nbsp;cabinet.
+                mechanical cleaning. Fervently, waiting for you in my&nbsp;cabinet.
               </Typography>
             </CardContent>
             <CardActions></CardActions>
@@ -111,7 +111,7 @@ const Cards = () => {
             >
               <Typography
                 gutterBottom
-                variant="h6"
+                variant="h7"
                 component="div"
                 sx={{ color: "#585858", fontWeight: "bold", mt: 2 }}
                 align="center"
@@ -119,11 +119,11 @@ const Cards = () => {
                 Products for sale
               </Typography>
               <Typography
-                variant="subtitle2"
-                sx={{ color: "#585858",  fontWeight: "bold", mt: 2 }}
+                variant="body2"
+                sx={{ color: "#585858", fontWeight: "bold",   mt: 2 }}
                 align="center"
               >
-                Choose from variety of skincare products. From serums to
+                Choose among a variety of skincare products. From serums to
                 exfoliating creams. For sure, French quality is&nbsp;guaranteed.
               </Typography>
             </CardContent>
