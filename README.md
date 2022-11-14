@@ -12,7 +12,7 @@ Project published and deployed on Heroku.
 
 Redux state management tool used for this project.
 
-Search is available by naming.
+Searching is available by the name of the product.
 
 Fully responsive layout.
 
