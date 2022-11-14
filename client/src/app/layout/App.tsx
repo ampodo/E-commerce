@@ -22,7 +22,7 @@ import PrivateRoute from "./PrivateRoute";
 import Orders from "../../features/orders/Orders";
 import Footer from "./Footer";
 import HomePage from "../../features/home/Homepage";
-
+import Cards from "../../features/cards/Cards";
 
 function App() {
   const dispatch = useAppDispatch();
@@ -60,6 +60,7 @@ function App() {
       <Header />
       <main className="container content">
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/" component={Cards} />
        
         
         <Route
