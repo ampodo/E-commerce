@@ -8,7 +8,7 @@ Shopping cart is fully functional, sorting of the products is available.
 
 Redux state management tool used for this project.
 
-Search is available by naming. Redux was applied for managing states in this project.
+Search is available by naming.
 
 Applied Material UI library for the decent design.
 
