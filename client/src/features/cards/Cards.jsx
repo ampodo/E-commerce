@@ -44,11 +44,11 @@ const Cards = () => {
               </Typography>
               <Typography
                 variant="body2"
-                sx={{ color: "#585858", fontWeight: "bold",  mt: 2 }}
+                sx={{ color: "black",  mt: 2, fontSize: "12px", lineHeight:"21px" }}
                 align="center"
               >
                 My service includes the injection of amino acids, minerals,
-                enzymes, and vitamins into the middle layer of the&nbsp;skin.
+                enzymes, vitamins into the middle layer of the&nbsp;skin.
               </Typography>
             </CardContent>
             <CardActions></CardActions>
@@ -82,7 +82,7 @@ const Cards = () => {
               </Typography>
               <Typography
                 variant="body2"
-                sx={{ color: "#585858", fontWeight: "bold",   mt: 2 }}
+                sx={{ color: "black",  mt: 2, fontSize: "12px", lineHeight:"21px" }}
                 align="center"
               >
                 I provide different skincare procedures. From peeling to
@@ -120,7 +120,7 @@ const Cards = () => {
               </Typography>
               <Typography
                 variant="body2"
-                sx={{ color: "#585858", fontWeight: "bold",   mt: 2 }}
+                sx={{ color: "black",  mt: 2, fontSize: "12px", lineHeight:"21px" }}
                 align="center"
               >
                 Choose among a variety of skincare products. From serums to
