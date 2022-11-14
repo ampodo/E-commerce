@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20221108013447_PostGresInitial")]
+    [Migration("20221113234216_PostGresInitial")]
     partial class PostGresInitial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -187,14 +187,14 @@ namespace API.Data.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "cdc8577a-1ece-4c13-bd7b-7ada686cb94b",
+                            ConcurrencyStamp = "1fe160f2-4b78-4afe-9f55-00e91130a732",
                             Name = "Member",
                             NormalizedName = "MEMBER"
                         },
                         new
                         {
                             Id = 2,
-                            ConcurrencyStamp = "64ee62c4-2cc7-4909-a1f6-ca9e1ca98aff",
+                            ConcurrencyStamp = "8574e55a-30f6-4022-b868-ea23c851267a",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
