@@ -16,4 +16,3 @@ Searching is available by the name of the product.
 
 Fully responsive layout.
 
-Check the link below: https://e-lab-one.herokuapp.com/
